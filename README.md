@@ -65,17 +65,18 @@ docker run -d --name=netdata -p 19999:19999 \
 
 ### ✅ Container Logs
 
-
+```
 docker logs netdata > Netdata_logs.txt
+```
 
 ### ✅ Inside the Netdata Container
 
-
+```
 docker exec -it netdata bash
 cd /var/log/netdata
 ls
 cat error.log
-
+```
 ---
 
 ## 🧪 Output Screenshots
