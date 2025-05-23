@@ -23,7 +23,7 @@ To monitor system resources (CPU, memory, disk I/O, network, and Docker containe
 
 ### ✅ 1. Install Docker (if not already installed)
 
-
+```
 sudo apt update
 sudo apt install docker.io -y
 sudo systemctl start docker
